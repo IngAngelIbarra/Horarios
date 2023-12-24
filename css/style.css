@@ -1,0 +1,15 @@
+.contenedorLogin {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.mainlogin {
+    grid-area: 1 / 1 / 6 / 3;
+}
+
+.sliderLogin {
+    grid-area: 1 / 3 / 6 / 5;
+}
