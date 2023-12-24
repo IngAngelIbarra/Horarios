@@ -1,41 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="stylesheet" href="/css/style.css">
     <title>signin-signup</title>
 </head>
+
 <body>
     <br><br>
     <div class="container">
         <div class="signin-signup">
             <form action="" class="sign-in-form">
-                <h2 class="title">¡Bienvenid@!</h2>
+                <h2 class="title">REGISTRAR</h2>
                 <div class="input-field">
                     <i class="fas fa-user"></i>
-                    <input type="text" placeholder="Usuario">
+                    <input type="text" placeholder="USUARIO">
                 </div>
                 <div class="input-field">
                     <i class="fas fa-lock"></i>
-                    <input type="password" placeholder="Contraseña">
+                    <input type="password" placeholder="CONTRASEÑA">
                 </div>
-                <input type="submit" value="ingresar" class="btn">
+                <div class="input-field">
+                    <i class="fa fa-address-card" aria-hidden="true"></i>
+                    <select name="nivel" class="input-field">
+                        <option value="1">ADMIN</option>
+                        <option value="2">GERENTE</option>
+                        <option value="3" selected>DOCTOR</option>
+                    </select>
+                </div>
+                <input type="submit" value="Registrar" class="btn">
 
-                <a href="/html/ADMIN/registro.html">a</a>
                 <br><br><br>
                 <h4 style="color: gray;">@author Ángel Ibarra | 2024 &copy; </h4>
             </form>
             <div class="containerPa">
-                
+
             </div>
             <form>
-               <!--  -->
+                <!--  -->
             </form>
         </div>
     </div>
     <script src="/js/app.js"></script>
 </body>
+
 </html>
